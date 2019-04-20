@@ -9,6 +9,8 @@
   "author": "Gendy",
   "license": "ISC",
   "dependencies": {
+    "fs": "0.0.1-security",
+    "json-format": "^1.0.1",
     "xlsx": "^0.14.2"
   }
 }
