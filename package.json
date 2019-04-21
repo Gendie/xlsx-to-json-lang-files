@@ -4,7 +4,8 @@
   "description": "convert language translation in xlsx format into json file for each language",
   "main": "./lib/xlsx-to-json-lang-files.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-watch": "jest --watch *.js"
   },
   "author": "Gendy",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "fs": "0.0.1-security",
     "json-format": "^1.0.1",
     "xlsx": "^0.14.2"
+  },
+  "devDependencies": {
+    "jest": "^24.7.1"
   }
 }
