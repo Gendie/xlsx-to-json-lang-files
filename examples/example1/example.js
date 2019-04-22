@@ -3,7 +3,7 @@ const xlsxToJson = require("../../lib/xlsx-to-json-lang-files");
 
 xlsxToJson(
     './example-file.xlsx', 
-    './translation-output',
+    '.',
     {
         startColumn: 'A',   // Default is A
         endColumn: 'F',     // Default is Z
