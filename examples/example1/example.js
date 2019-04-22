@@ -9,5 +9,6 @@ xlsxToJson(
         endColumn: 'F',     // Default is Z
         startRow: 1,        // Default is 0
         endRow: 'auto',        // Default is auto
+        useSheetName: true
     }
 );
