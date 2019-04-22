@@ -10,11 +10,13 @@
   "author": "Gendy",
   "license": "ISC",
   "dependencies": {
+    "assert": "^1.4.1",
     "fs": "0.0.1-security",
     "json-format": "^1.0.1",
     "xlsx": "^0.14.2"
   },
   "devDependencies": {
-    "jest": "^24.7.1"
+    "jest": "^24.7.1",
+    "rewire": "^4.0.1"
   }
 }
